@@ -52,6 +52,35 @@
      min-height: 100vh;
    }
 
+   .tag-line , .excel-2020 {
+     display: none;
+   }
+
+   @media (min-width: 769px) and (max-width: 992px) {
+     .tag-line {
+       display: inline-block !important;
+       font-family: 'Lato', sans-serif;
+       word-spacing: 5px;
+       color: #0383B1;
+       font-weight: 400;
+       font-size: 17.5px;
+       margin-left: 20px;
+       position: relative;
+       bottom: 1px;
+     }
+   }
+
+   @media (min-width: 769px) and (max-width: 992px) {
+     .excel-2020 {
+       display: inline-block !important;
+       font-family: 'Lato', sans-serif;
+       word-spacing: 5px;
+       color: #0383B1;
+       font-weight: 600;
+       font-size: 20px;
+     }
+   }
+
   .logo-main {
     display: none;
    }
@@ -97,6 +126,12 @@
      text-align: justify;
      font-family: 'Lato', sans-serif;
      font-weight: 300;
+   }
+
+   @media (min-width: 768px) and (max-width: 992px) {
+     .about-excel {
+       padding-right: 10px;
+     }
    }
 
    @media (min-width: 576px) and (max-width: 768px) {
@@ -155,7 +190,12 @@
      .about-excel-col {
        margin-top: 0;
      }
+   }
 
+   @media (width: 768px) {
+     .about-excel-col {
+       margin-top: auto;
+     }
    }
 
    @media (max-width: 1080px){
@@ -174,6 +214,11 @@
      .about-excel{
        line-height: 18px;
      }
+
+     header {
+     background-attachment: unset;
+   }
+
    }
 
    @media (min-width: 1600px) {
@@ -209,6 +254,7 @@
           </button>
           <a href="https://excelmec.org/" target="blank" class="navbar-brand"><img id="nav-brand" src="assets/img/logo_nav.png" alt=""></a>
         </div>
+        <span class="excel-2020">EXCEL 2020<span class="tag-line">INSPIRE | INNOVATE | ENGINEER</span></span>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item active">
