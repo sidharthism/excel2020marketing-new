@@ -281,7 +281,7 @@ ul li, ol li {
 }
 
 #association p {
-  text-align: justify;
+  text-align: center;
 }
 
 #association {
@@ -673,10 +673,10 @@ ul li, ol li {
   background-color: #0383B1;
   position: relative;
   z-index: 1;
-  padding: 17px;
+  padding: 16px;
   font-weight: 400 !important;
   text-transform: none;
-  font-size: 15px;
+  font-size: 1.15rem;
   letter-spacing: 1px;
 }
 
